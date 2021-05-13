@@ -1,0 +1,163 @@
+/* Header 
+-----------------------------------------------------------------*/
+
+header {
+    background:linear-gradient(50deg,rgb(75, 56, 248), rgb(112, 138, 252), rgb(177, 208, 250));
+    height: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0 0 0 90px;
+}
+
+.navbar-brand {
+    font-size: 2.3em;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    color: white;
+    font-size: 1.0em;
+}
+
+.navbar-expand-md .navbar-nav .nav-link:hover {
+    color: rgb(13, 49, 255);
+}
+
+.navbar-expand-md, a {
+    color: white;
+}
+
+.navbar-expand-md, a:hover {
+    color: rgb(13, 49, 255);
+}
+
+.login:hover {
+    color: rgb(78, 203, 241);
+}
+
+.centralizar {
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
+
+.centralizar, p{
+    font-size: 30px;
+}
+
+.mt-3{
+    font-size: 50px;
+}
+
+.col-sm-6 .input-group {
+    text-align: center;
+}
+
+.botoes {
+    margin: 0 auto;
+}
+
+.signup {
+    border-radius: 20px;
+    color: white;
+    background: rgb(98, 81, 252);
+}
+
+.fa-bars {
+    color: rgb(98, 81, 252);
+}
+
+
+
+
+/* Responsividade 
+-------------------------------------------------------------------------------*/
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+    .centralizar p{
+        font-size: 25px;
+    }
+    .centralizar h2{
+        display: none;
+    }
+
+    header {
+        height: 295px;
+    }
+
+    .input-group{
+        width: 300px;
+
+    }
+
+    .botao {
+        margin-top: 10px;
+    }
+    
+    .signup {
+        width: 150px;
+        border-radius: 20px;
+        margin: 0 auto;
+    }
+
+    .login {
+        width: 150px;
+        border-radius: 20px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        border: 1px solid rgb(111, 0, 255);
+    }
+
+    
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .centralizar p{
+        font-size: 25px;
+    }
+    .centralizar h2{
+        display: none;
+    }
+
+    header {
+        height: 280px;
+    }
+
+  
+
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+      
+    .centralizar h2{
+        font-size: 35px;
+    }
+
+    .centralizar p{
+        font-size: 20px;
+    }
+
+    .navbar-brand {
+        font-size: 25px;
+    }
+
+    .input-group .botoes .col-md-6, .btn .btn-primary{
+        margin: 0px;
+    }
+    
+
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+}
+
